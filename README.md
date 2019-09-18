@@ -1,24 +1,27 @@
-# README
+# Rails with webpacker react
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a demo of rails with webpacker react.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Use `ruby 2.6`
 
-* System dependencies
+```bash
+bundle install
+```
 
-* Configuration
+## Usage
 
-* Database creation
+```bash
+foreman start -f Procfile.dev -p 3000
+```
 
-* Database initialization
+## Contributing
 
-* How to run the test suite
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* Services (job queues, cache servers, search engines, etc.)
+Please make sure to update tests as appropriate.
 
-* Deployment instructions
+## License
 
-* ...
+[MIT](/LICENSE)
