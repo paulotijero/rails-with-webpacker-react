@@ -41,14 +41,14 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Active model serializers
 gem 'active_model_serializers'
 
-group :production do
-  gem "pg"
-end
+gem "pg"
+# group :production do
+# end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem "sqlite3"
+  # gem "sqlite3"
 end
 
 group :development do
